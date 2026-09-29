@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "BAD",
+    "CDD"
+  ],
+  "key": {
+    "A": {
+      "item": "cogsforarms:copper_plated_cog"
+    },
+    "B": {
+      "item": "minecraft:chain"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "D": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:simple_mechanical_components"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "C#C",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "#": {
+      "item": "create:cogwheel"
+    }
+  },
+  "result": {
+    "id": "cogsforarms:copper_plated_cog"
+  }
+}
