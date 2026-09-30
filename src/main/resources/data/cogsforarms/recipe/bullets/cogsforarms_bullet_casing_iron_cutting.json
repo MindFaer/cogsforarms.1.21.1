@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create:iron_sheet"
+    }
+  ],
+  "processing_time": 40,
+  "results": [
+    {
+      "id": "cogsforarms:iron_bullet_casing",
+      "count": 4    }
+  ]
+}

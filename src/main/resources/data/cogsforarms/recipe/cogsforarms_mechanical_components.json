@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FGF"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:chain"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "create:large_cogwheel"
+    },
+    "E": {
+      "item": "create:cogwheel"
+    },
+    "D": {
+      "item": "irons_artifice:simple_mechanical_components"
+    },
+    "F": {
+      "item": "create:iron_sheet"
+    },
+    "G": {
+      "item": "create:mechanical_bearing"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:mechanical_components"
+  }
+}

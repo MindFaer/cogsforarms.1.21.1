@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:golden_sheet"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "D": {
+      "item": "create:clockwork_bearing"
+    },
+    "X": {
+      "item": "irons_artifice:mechanical_components"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "ABCBA",
+    "ACXCA",
+    "ABDBA",
+    " AAA "
+  ],
+  "result": {
+    "id": "irons_artifice:clockwork_components"
+  },
+  "show_notification": false
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "irons_artifice:bullet"
+    },
+    "S": {
+      "item": "create:bound_cardboard_block"
+    }
+  },
+  "result": {
+    "id": "cogsforarms:ammo_box"
+  }
+}

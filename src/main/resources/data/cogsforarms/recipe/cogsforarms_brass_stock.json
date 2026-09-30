@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cogsforarms:large_stock"
+    },
+    {
+      "item": "create:brass_casing"
+    }
+  ],
+  "results": [
+    {
+      "id": "cogsforarms:brass_stock"
+    }
+  ]
+}

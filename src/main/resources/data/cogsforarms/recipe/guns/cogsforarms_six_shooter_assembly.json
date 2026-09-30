@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "irons_artifice:mechanical_components"
+  },
+  "results": [
+    {
+      "id": "irons_artifice:six_shooter"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_six_shooter"
+        },
+        {
+          "item": "minecraft:stripped_birch_log"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_six_shooter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_six_shooter"
+        },
+        {
+          "item": "cogsforarms:cylinder"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_six_shooter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_six_shooter"
+        },
+        {
+          "item": "irons_artifice:hair_trigger_modifier"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_six_shooter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_six_shooter"
+        },
+        {
+          "item": "cogsforarms:short_barrel"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_six_shooter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_six_shooter"
+        },
+        {
+          "item": "cogsforarms:small_stock"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_six_shooter"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_six_shooter"
+        },
+        {
+          "item": "cogsforarms:ammo_box"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_six_shooter"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cogsforarms:incomplete_six_shooter"
+  }
+}

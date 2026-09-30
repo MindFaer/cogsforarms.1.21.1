@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create:brass_sheet"
+    }
+  ],
+  "processing_time": 40,
+  "results": [
+    {
+      "id": "cogsforarms:brass_bullet_casing",
+      "count": 4    }
+  ]
+}

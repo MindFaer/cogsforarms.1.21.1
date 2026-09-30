@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "CCD"
+  ],
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "tag": "c:stripped_logs"
+    },
+    "D": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "cogsforarms:long_barrel"
+  }
+}

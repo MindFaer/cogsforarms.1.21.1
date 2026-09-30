@@ -1,0 +1,42 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:shaft"
+  },
+  "loops": 6,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "cogsforarms:cylinder"
+    },
+    {
+      "chance": 4.0,
+      "id": "create:iron_sheet"
+    },
+    {
+      "chance": 4.0,
+      "id": "minecraft:iron_ingot"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_cylinder"
+        },
+        {
+          "item": "create:iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_cylinder"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cogsforarms:incomplete_cylinder"
+  }
+}

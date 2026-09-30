@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA ",
+    "BB ",
+    "CA "
+  ],
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "tag": "c:stripped_logs"
+    }
+  },
+  "result": {
+    "id": "cogsforarms:short_barrel"
+  }
+}

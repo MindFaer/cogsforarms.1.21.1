@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "irons_artifice:mechanical_components"
+  },
+  "results": [
+    {
+      "id": "irons_artifice:blackpowder_revolver"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_blackpowder_revolver"
+        },
+        {
+          "item": "minecraft:gilded_blackstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_blackpowder_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_blackpowder_revolver"
+        },
+        {
+          "item": "cogsforarms:cylinder"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_blackpowder_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_blackpowder_revolver"
+        },
+        {
+          "item": "cogsforarms:trigger"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_blackpowder_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_blackpowder_revolver"
+        },
+        {
+          "item": "cogsforarms:short_barrel"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_blackpowder_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_blackpowder_revolver"
+        },
+        {
+          "item": "cogsforarms:small_stock"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_blackpowder_revolver"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_blackpowder_revolver"
+        },
+        {
+          "item": "cogsforarms:ammo_box"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_blackpowder_revolver"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cogsforarms:incomplete_blackpowder_revolver"
+  }
+}

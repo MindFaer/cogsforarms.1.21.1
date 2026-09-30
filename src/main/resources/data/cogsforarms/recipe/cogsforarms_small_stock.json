@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    "CC ",
+    "C  "
+  ],
+  "key": {
+    "C": {
+      "tag": "c:stripped_logs"
+    }
+  },
+  "result": {
+    "id": "cogsforarms:small_stock"
+  }
+}

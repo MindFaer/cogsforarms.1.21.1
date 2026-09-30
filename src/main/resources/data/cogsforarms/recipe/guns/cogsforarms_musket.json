@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  A",
+    "BCD",
+    "EF "
+  ],
+  "key": {
+    "A": {
+      "item": "cogsforarms:long_barrel"
+    },
+    "B": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "C": {
+      "item": "irons_artifice:simple_mechanical_components"
+    },
+    "D": {
+      "item": "irons_artifice:bullet"
+    },
+    "E": {
+      "item": "cogsforarms:large_stock"
+    },
+    "F": {
+      "item": "cogsforarms:trigger"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:musket"
+  }
+}

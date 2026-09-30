@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCD"
+  ],
+  "key": {
+    "A": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "cogsforarms:copper_plated_cog"
+    },
+    "C": {
+      "item": "cogsforarms:trigger"
+    },
+    "D": {
+      "item": "irons_artifice:gun_oil_modifier"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:hair_trigger_modifier"
+  }
+}

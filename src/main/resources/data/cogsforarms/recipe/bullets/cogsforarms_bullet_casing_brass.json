@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "A A",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "id": "cogsforarms:brass_bullet_casing",
+    "count": 2
+  }
+}

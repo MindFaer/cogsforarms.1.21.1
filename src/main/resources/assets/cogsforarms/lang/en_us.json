@@ -1,5 +1,19 @@
 {
   "itemGroup.cogsforarms": "Cogs For Arms",
 
-  "item.cogsforarms.copper_plated_cog": "Copper Plated Cog"
+  "item.cogsforarms.copper_plated_cog": "Copper Plated Cog",
+  "item.cogsforarms.small_stock": "Small Stock",
+  "item.cogsforarms.large_stock": "Large Stock",
+  "item.cogsforarms.brass_stock": "Brass Stock",
+  "item.cogsforarms.short_barrel": "Short Barrel",
+  "item.cogsforarms.long_barrel": "Long Barrel",
+  "item.cogsforarms.ammo_box": "Ammo Box",
+  "item.cogsforarms.cylinder": "Cylinder",
+  "item.cogsforarms.incomplete_cylinder": "Incomplete Cylinder",
+  "item.cogsforarms.magazine": "Magazine",
+  "item.cogsforarms.trigger": "Trigger",
+  "item.cogsforarms.iron_bullet_casing": "Iron Bullet Casing",
+  "item.cogsforarms.brass_bullet_casing": "Brass Bullet Casing",
+  "item.cogsforarms.incomplete_six_shooter": "Incomplete Six Shooter"
+
 }

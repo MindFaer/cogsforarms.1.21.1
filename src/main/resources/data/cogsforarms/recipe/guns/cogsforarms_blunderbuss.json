@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " GA",
+    "BCD",
+    "EFD"
+  ],
+  "key": {
+    "A": {
+      "item": "cogsforarms:long_barrel"
+    },
+    "B": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "C": {
+      "item": "irons_artifice:simple_mechanical_components"
+    },
+    "D": {
+      "item": "irons_artifice:bullet"
+    },
+    "E": {
+      "item": "cogsforarms:large_stock"
+    },
+    "F": {
+      "item": "cogsforarms:trigger"
+    },
+    "G": {
+      "item": "create:metal_bracket"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:blunderbuss"
+  }
+}
