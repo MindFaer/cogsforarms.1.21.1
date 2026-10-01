@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "AAA",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:buffer_spring_modifier"
+  }
+}

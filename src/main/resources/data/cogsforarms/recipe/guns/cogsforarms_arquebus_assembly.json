@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "irons_artifice:clockwork_components"
+  },
+  "results": [
+    {
+      "id": "irons_artifice:arquebus"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_arquebus"
+        },
+        {
+          "item": "create:brass_funnel"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_arquebus"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_arquebus"
+        },
+        {
+          "item": "minecraft:lever"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_arquebus"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_arquebus"
+        },
+        {
+          "item": "cogsforarms:trigger"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_arquebus"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_arquebus"
+        },
+        {
+          "item": "cogsforarms:long_barrel"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_arquebus"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_arquebus"
+        },
+        {
+          "item": "cogsforarms:large_stock"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_arquebus"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_arquebus"
+        },
+        {
+          "item": "cogsforarms:ammo_box"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_arquebus"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cogsforarms:incomplete_arquebus"
+  }
+}

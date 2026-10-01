@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_nugget"
+    },
+    "B": {
+      "item": "cogsforarms:brass_bullet_casing"
+    },
+    "C": {
+      "item": "irons_artifice:blackpowder"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:bullet",
+    "count": 8
+  }
+}

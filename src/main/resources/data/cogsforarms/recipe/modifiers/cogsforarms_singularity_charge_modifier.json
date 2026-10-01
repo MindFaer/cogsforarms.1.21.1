@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBA",
+    " DB",
+    "X C"
+  ],
+  "key": {
+    "A": {
+      "item": "irons_artifice:blackpowder_charge_modifier"
+    },
+    "B": {
+      "item": "irons_artifice:antigravity_powder_modifier"
+    },
+    "X": {
+      "item": "cogsforarms:specialized_bullet_blueprint"
+    },
+    "D": {
+      "item": "irons_artifice:bullet"
+    },
+    "C": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:singularity_charge_modifier"
+  }
+}

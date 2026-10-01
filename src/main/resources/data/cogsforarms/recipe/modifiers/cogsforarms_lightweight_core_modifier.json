@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "irons_artifice:bullet"
+    }
+  },
+  "result": {
+    "id": "cogsforarms:lightweight_core_modifier"
+  }
+}

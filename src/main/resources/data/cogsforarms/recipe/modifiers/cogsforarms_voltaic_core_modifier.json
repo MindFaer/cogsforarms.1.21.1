@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAA",
+    " DA",
+    "C B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lightning_rod"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    },
+    "C": {
+      "item": "cogsforarms:specialized_bullet_blueprint"
+    },
+    "D": {
+      "item": "irons_artifice:bullet"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:voltaic_core_modifier"
+  }
+}

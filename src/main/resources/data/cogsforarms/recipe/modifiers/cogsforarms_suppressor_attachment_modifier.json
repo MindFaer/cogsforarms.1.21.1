@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " B ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:suppressor_attachment_modifier"
+  }
+}

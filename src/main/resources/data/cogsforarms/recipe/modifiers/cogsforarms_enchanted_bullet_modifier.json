@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EBA",
+    " DB",
+    "C E"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lapis_block"
+    },
+    "B": {
+      "item": "create:experience_nugget"
+    },
+    "C": {
+      "item": "cogsforarms:specialized_bullet_blueprint"
+    },
+    "D": {
+      "item": "irons_artifice:bullet"
+    },
+    "E": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:enchanted_bullet_modifier"
+  }
+}

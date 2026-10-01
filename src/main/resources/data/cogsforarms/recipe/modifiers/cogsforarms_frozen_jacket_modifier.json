@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "irons_artifice:bullet"
+    },
+    {
+      "item": "cogsforarms:specialized_bullet_blueprint"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "irons_artifice:frozen_jacket_modifier"
+    }
+  ]
+}

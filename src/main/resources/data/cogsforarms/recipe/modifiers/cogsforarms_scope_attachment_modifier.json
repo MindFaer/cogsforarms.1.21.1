@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "B B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:spyglass"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:scope_attachment_modifier"
+  }
+}

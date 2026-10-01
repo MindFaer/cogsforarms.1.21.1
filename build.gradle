@@ -146,7 +146,7 @@ dependencies {
 
     implementation "curse.maven:irons-artifice-1650193:8974634"
     runtimeOnly "curse.maven:geckolib-388172:8893490"
-    runtimeOnly "curse.maven:irons-lib-1492763:8973642"
+    implementation "curse.maven:irons-lib-1492763:8973642"
 
     implementation "curse.maven:create-328085:7963363"
 

@@ -12,8 +12,12 @@
   "item.cogsforarms.incomplete_cylinder": "Incomplete Cylinder",
   "item.cogsforarms.magazine": "Magazine",
   "item.cogsforarms.trigger": "Trigger",
+  "item.cogsforarms.netherite_trigger_modifier": "Netherite Trigger Modifier",
   "item.cogsforarms.iron_bullet_casing": "Iron Bullet Casing",
   "item.cogsforarms.brass_bullet_casing": "Brass Bullet Casing",
-  "item.cogsforarms.incomplete_six_shooter": "Incomplete Six Shooter"
-
+  "item.cogsforarms.incomplete_six_shooter": "Incomplete Six Shooter",
+  "item.cogsforarms.incomplete_clockwork_rifle": "Incomplete Clockwork Rifle",
+  "item.cogsforarms.incomplete_arquebus": "Incomplete Arquebus",
+  "item.cogsforarms.specialized_bullet_blueprint": "Specialized Bullet Blueprint",
+  "item.cogsforarms.lightweight_core_modifier": "Lightweight Core Modifier"
 }

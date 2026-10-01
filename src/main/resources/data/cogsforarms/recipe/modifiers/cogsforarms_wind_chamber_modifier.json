@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "BBB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "minecraft:breeze_rod"
+    },
+    "C": {
+      "item": "create:copper_nugget"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:wind_chamber_modifier"
+  }
+}

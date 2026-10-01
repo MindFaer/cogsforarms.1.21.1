@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "minecraft:copper_grate"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:gas_vent_modifier"
+  }
+}

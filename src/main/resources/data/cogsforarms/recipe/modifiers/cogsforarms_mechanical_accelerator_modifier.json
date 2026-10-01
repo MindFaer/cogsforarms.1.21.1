@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "XXX"
+  ],
+  "key": {
+    "A": {
+      "item": "irons_artifice:simple_mechanical_components"
+    },
+    "B": {
+      "item": "cogsforarms:copper_plated_cog"
+    },
+    "X": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:mechanical_accelerator_modifier"
+  }
+}

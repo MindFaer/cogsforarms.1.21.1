@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABB",
+    " BB",
+    " BB"
+  ],
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "create:industrial_iron_block"
+    }
+  },
+  "result": {
+    "id": "cogsforarms:magazine"
+  }
+}

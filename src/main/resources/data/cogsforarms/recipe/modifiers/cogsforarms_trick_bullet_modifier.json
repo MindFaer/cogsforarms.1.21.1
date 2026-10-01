@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBA",
+    " DB",
+    "C B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "create:golden_sheet"
+    },
+    "C": {
+      "item": "cogsforarms:specialized_bullet_blueprint"
+    },
+    "D": {
+      "item": "irons_artifice:bullet"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:trick_bullet_modifier"
+  }
+}

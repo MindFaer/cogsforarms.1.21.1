@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " XA",
+    "BBX",
+    "BB "
+  ],
+  "key": {
+    "A": {
+      "item": "create:industrial_iron_block"
+    },
+    "B": {
+      "item": "minecraft:chain"
+    },
+    "X": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:hook_shot_modifier"
+  }
+}

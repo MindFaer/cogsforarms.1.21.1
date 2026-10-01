@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAA",
+    "EDA",
+    "CEB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "minecraft:deepslate"
+    },
+    "C": {
+      "item": "cogsforarms:specialized_bullet_blueprint"
+    },
+    "D": {
+      "item": "irons_artifice:bullet"
+    },
+    "E": {
+      "item": "create:powdered_obsidian"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:lead_core_modifier"
+  }
+}

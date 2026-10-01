@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBA",
+    " DB",
+    "C B"
+  ],
+  "key": {
+    "A": {
+      "item": "create:industrial_iron_block"
+    },
+    "B": {
+      "item": "create:sturdy_sheet"
+    },
+    "C": {
+      "item": "cogsforarms:specialized_bullet_blueprint"
+    },
+    "D": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:steel_core_modifier"
+  }
+}

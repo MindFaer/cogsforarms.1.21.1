@@ -1,6 +1,10 @@
 package com.mindfaer.cogsforarms;
 
+import com.mindfaer.cogsforarms.modifier.EasterEggModifier;
+import com.mindfaer.cogsforarms.modifier.LightweightCoreModifier;
+import com.mindfaer.cogsforarms.modifier.NetheriteTriggerModifier;
 import com.mojang.logging.LogUtils;
+import io.redspace.irons_artifice.modifier.ModifierItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -51,6 +55,14 @@ public class CogsForArms {
     );
     public static final DeferredItem<Item> BRASS_BULLET_CASING = ITEMS.registerSimpleItem("brass_bullet_casing", new Item.Properties()
     );
+    public static final DeferredItem<Item> SPECIALIZED_BULLET_BLUEPRINT = ITEMS.registerSimpleItem("specialized_bullet_blueprint", new Item.Properties().stacksTo(1)
+    );
+
+    public static final DeferredItem<ModifierItem> NETHERITE_TRIGGER_MODIFIER = ITEMS.registerItem(
+            "netherite_trigger_modifier", properties -> new ModifierItem(properties.stacksTo(1), new NetheriteTriggerModifier()));
+
+    public static final DeferredItem<ModifierItem> LIGHTWEIGHT_CORE_MODIFIER = ITEMS.registerItem(
+            "lightweight_core_modifier", properties -> new ModifierItem(properties.stacksTo(1), new LightweightCoreModifier()));
 
     //Create Incomplete Items
     public static final DeferredItem<Item> INCOMPLETE_CYLINDER = ITEMS.registerSimpleItem("incomplete_cylinder", new Item.Properties()
@@ -59,6 +71,11 @@ public class CogsForArms {
     );
     public static final DeferredItem<Item> INCOMPLETE_BLACKPOWDER_REVOLVER = ITEMS.registerSimpleItem("incomplete_blackpowder_revolver", new Item.Properties()
     );
+    public static final DeferredItem<Item> INCOMPLETE_ARQUEBUS = ITEMS.registerSimpleItem("incomplete_arquebus", new Item.Properties()
+    );
+    public static final DeferredItem<ModifierItem> INCOMPLETE_CLOCKWORK_RIFLE = ITEMS.registerItem(
+            "incomplete_clockwork_rifle", properties -> new ModifierItem(properties.stacksTo(1), new EasterEggModifier()));
+
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> COGS_TAB = CREATIVE_MODE_TABS.register("cogsforarmstab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.cogsforarms"))
@@ -77,6 +94,9 @@ public class CogsForArms {
                 output.accept(TRIGGER.get());
                 output.accept(IRON_BULLET_CASING.get());
                 output.accept(BRASS_BULLET_CASING.get());
+                output.accept(NETHERITE_TRIGGER_MODIFIER.get());
+                output.accept(SPECIALIZED_BULLET_BLUEPRINT.get());
+                output.accept(LIGHTWEIGHT_CORE_MODIFIER.get());
             }).build());
 
     public CogsForArms(IEventBus modEventBus, ModContainer modContainer) {

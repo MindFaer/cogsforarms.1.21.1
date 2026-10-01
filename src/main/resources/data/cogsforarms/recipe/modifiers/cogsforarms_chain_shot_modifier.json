@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "B B",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "create:industrial_iron_block"
+    },
+    "B": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:chain_shot_modifier"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "irons_artifice:bullet"
+    },
+    {
+      "item": "create:empty_schematic"
+    }
+  ],
+  "result": {
+    "id": "cogsforarms:specialized_bullet_blueprint"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XBX",
+    "XAX"
+  ],
+  "key": {
+    "A": {
+      "item": "irons_artifice:clockwork_components"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "X": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:mechanical_repeater_modifier"
+  }
+}

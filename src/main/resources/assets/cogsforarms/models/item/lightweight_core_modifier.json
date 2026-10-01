@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cogsforarms:item/lightweight_core_modifier"
+  }
+}

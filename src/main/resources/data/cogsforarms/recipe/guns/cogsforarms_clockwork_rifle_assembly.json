@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "irons_artifice:clockwork_components"
+  },
+  "results": [
+    {
+      "id": "irons_artifice:clockwork_rifle"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_clockwork_rifle"
+        },
+        {
+          "item": "create:sequenced_gearshift"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_clockwork_rifle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_clockwork_rifle"
+        },
+        {
+          "item": "cogsforarms:magazine"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_clockwork_rifle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_clockwork_rifle"
+        },
+        {
+          "item": "cogsforarms:netherite_trigger_modifier"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_clockwork_rifle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_clockwork_rifle"
+        },
+        {
+          "item": "cogsforarms:long_barrel"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_clockwork_rifle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_clockwork_rifle"
+        },
+        {
+          "item": "cogsforarms:brass_stock"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_clockwork_rifle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_clockwork_rifle"
+        },
+        {
+          "item": "cogsforarms:ammo_box"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_clockwork_rifle"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cogsforarms:incomplete_clockwork_rifle"
+  }
+}

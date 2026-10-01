@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBA",
+    " DB",
+    "X C"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ghast_tear"
+    },
+    "B": {
+      "item": "minecraft:quartz"
+    },
+    "X": {
+      "item": "cogsforarms:specialized_bullet_blueprint"
+    },
+    "D": {
+      "item": "irons_artifice:bullet"
+    },
+    "C": {
+      "item": "create:rose_quartz"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:bloodletting_tip_modifier"
+  }
+}

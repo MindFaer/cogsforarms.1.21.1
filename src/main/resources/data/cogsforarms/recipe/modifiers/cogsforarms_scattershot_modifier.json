@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "BBB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "cogsforarms:brass_bullet_casing"
+    },
+    "B": {
+      "item": "irons_artifice:bullet"
+    },
+    "C": {
+      "item": "create:brass_nugget"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:scattershot_modifier"
+  }
+}

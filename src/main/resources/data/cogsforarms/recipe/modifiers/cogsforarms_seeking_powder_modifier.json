@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "irons_artifice:antigravity_powder_modifier"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "AAAAA",
+    "AABAA",
+    "AAAAA",
+    " AAA "
+  ],
+  "result": {
+    "id": "irons_artifice:seeking_powder_modifier"
+  },
+  "show_notification": false
+}
