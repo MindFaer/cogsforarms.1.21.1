@@ -60,7 +60,6 @@ public class CogsForArms {
 
     public static final DeferredItem<ModifierItem> NETHERITE_TRIGGER_MODIFIER = ITEMS.registerItem(
             "netherite_trigger_modifier", properties -> new ModifierItem(properties.stacksTo(1), new NetheriteTriggerModifier()));
-
     public static final DeferredItem<ModifierItem> LIGHTWEIGHT_CORE_MODIFIER = ITEMS.registerItem(
             "lightweight_core_modifier", properties -> new ModifierItem(properties.stacksTo(1), new LightweightCoreModifier()));
 
