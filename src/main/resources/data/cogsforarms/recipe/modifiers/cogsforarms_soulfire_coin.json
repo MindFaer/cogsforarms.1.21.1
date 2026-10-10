@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:ancient_debris"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "irons_artifice:soulfire_coin_modifier"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_soulfire_coin"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_soulfire_coin"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_soulfire_coin"
+        },
+        {
+          "item": "minecraft:netherite_scrap"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_soulfire_coin"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cogsforarms:incomplete_soulfire_coin"
+        },
+        {
+          "item": "minecraft:soul_lantern"
+        }
+      ],
+      "results": [
+        {
+          "id": "cogsforarms:incomplete_soulfire_coin"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "cogsforarms:incomplete_soulfire_coin"
+  }
+}

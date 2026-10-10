@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BXB",
+    "###",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "irons_artifice:bullet"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "X": {
+      "item": "create:brass_funnel"
+    }
+  },
+  "result": {
+    "id": "irons_artifice:bullet_box"
+  }
+}

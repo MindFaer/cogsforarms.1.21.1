@@ -1,9 +1,12 @@
 package com.mindfaer.cogsforarms;
 
+import com.mindfaer.cogsforarms.gun.GunsCogs;
 import com.mindfaer.cogsforarms.modifier.EasterEggModifier;
 import com.mindfaer.cogsforarms.modifier.LightweightCoreModifier;
 import com.mindfaer.cogsforarms.modifier.NetheriteTriggerModifier;
 import com.mojang.logging.LogUtils;
+import io.redspace.irons_artifice.gun.Guns;
+import io.redspace.irons_artifice.item.GunItem;
 import io.redspace.irons_artifice.modifier.ModifierItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -58,6 +61,7 @@ public class CogsForArms {
     public static final DeferredItem<Item> SPECIALIZED_BULLET_BLUEPRINT = ITEMS.registerSimpleItem("specialized_bullet_blueprint", new Item.Properties().stacksTo(1)
     );
 
+
     public static final DeferredItem<ModifierItem> NETHERITE_TRIGGER_MODIFIER = ITEMS.registerItem(
             "netherite_trigger_modifier", properties -> new ModifierItem(properties.stacksTo(1), new NetheriteTriggerModifier()));
     public static final DeferredItem<ModifierItem> LIGHTWEIGHT_CORE_MODIFIER = ITEMS.registerItem(
@@ -72,9 +76,14 @@ public class CogsForArms {
     );
     public static final DeferredItem<Item> INCOMPLETE_ARQUEBUS = ITEMS.registerSimpleItem("incomplete_arquebus", new Item.Properties()
     );
+    public static final DeferredItem<Item> INCOMPLETE_SOULFIRE_COIN = ITEMS.registerSimpleItem("incomplete_soulfire_coin", new Item.Properties()
+    );
     public static final DeferredItem<ModifierItem> INCOMPLETE_CLOCKWORK_RIFLE = ITEMS.registerItem(
             "incomplete_clockwork_rifle", properties -> new ModifierItem(properties.stacksTo(1), new EasterEggModifier()));
 
+    public static final DeferredItem<GunItem> HEXED_HELLBRINGER = ITEMS.registerItem("hexed_hellbringer",
+            properties -> new GunItem(properties, GunsCogs.HEXED_HELLBRINGER)
+    );
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> COGS_TAB = CREATIVE_MODE_TABS.register("cogsforarmstab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.cogsforarms"))
@@ -96,6 +105,7 @@ public class CogsForArms {
                 output.accept(NETHERITE_TRIGGER_MODIFIER.get());
                 output.accept(SPECIALIZED_BULLET_BLUEPRINT.get());
                 output.accept(LIGHTWEIGHT_CORE_MODIFIER.get());
+                output.accept(HEXED_HELLBRINGER.get());
             }).build());
 
     public CogsForArms(IEventBus modEventBus, ModContainer modContainer) {

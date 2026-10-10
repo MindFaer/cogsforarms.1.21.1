@@ -144,8 +144,8 @@ dependencies {
     runtimeOnly "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
     runtimeOnly "curse.maven:emi-580555:8081408"
 
-    implementation "curse.maven:irons-artifice-1650193:8974634"
-    runtimeOnly "curse.maven:geckolib-388172:8893490"
+    implementation "curse.maven:irons-artifice-1650193:9093096"
+    implementation "curse.maven:geckolib-388172:8893490"
     implementation "curse.maven:irons-lib-1492763:8973642"
 
     implementation "curse.maven:create-328085:7963363"

@@ -18,7 +18,10 @@
   "item.cogsforarms.incomplete_six_shooter": "Incomplete Six Shooter",
   "item.cogsforarms.incomplete_clockwork_rifle": "Incomplete Clockwork Rifle",
   "item.cogsforarms.incomplete_arquebus": "Incomplete Arquebus",
+  "item.cogsforarms.incomplete_hexed_hellbringer": "Incomplete Hexed Hellbringer",
+  "item.cogsforarms.incomplete_soulfire_coin": "Incomplete Soulfire Coin",
   "item.cogsforarms.specialized_bullet_blueprint": "Specialized Bullet Blueprint",
   "item.cogsforarms.lightweight_core_modifier": "Lightweight Core Modifier",
-  "item.cogsforarms.engraved_bullets_modifier": "Engraved Bullets Modifier"
+  "item.cogsforarms.hexed_hellbringer": "Hexed Hellbringer"
+
 }

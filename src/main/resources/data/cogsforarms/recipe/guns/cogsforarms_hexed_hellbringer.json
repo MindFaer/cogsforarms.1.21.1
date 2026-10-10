@@ -1,0 +1,55 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:industrial_iron_block"
+    },
+    "B": {
+      "item": "minecraft:nether_brick_slab"
+    },
+    "C": {
+      "item": "minecraft:enchanted_book"
+    },
+    "D": {
+      "item": "cogsforarms:brass_stock"
+    },
+    "E": {
+      "item": "minecraft:nether_bricks"
+    },
+    "M": {
+      "item": "irons_artifice:clockwork_components"
+    },
+    "F": {
+      "item": "cogsforarms:long_barrel"
+    },
+    "G": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "H": {
+      "item": "cogsforarms:ammo_box"
+    },
+    "I": {
+      "item": "cogsforarms:trigger"
+    },
+    "J": {
+      "item": "cogsforarms:magazine"
+    },
+    "K": {
+      "item": "minecraft:soul_lantern"
+    },
+    "L": {
+      "item": "minecraft:rib_armor_trim_smithing_template"
+    }
+  },
+  "pattern": [
+    "ABBBCA",
+    "DEMEFG",
+    "HIJKLA"
+  ],
+  "result": {
+    "id": "cogsforarms:hexed_hellbringer"
+  },
+  "show_notification": false
+}
